@@ -1,7 +1,4 @@
-/*
- * Roxy: Bootstrap template by GettTemplates.com
- * https://gettemplates.co/roxy
- */
+
 html, body {
   width: 100%;
   overflow-x: hidden; }
@@ -36,7 +33,7 @@ button:focus {
 .btn:hover,
 a:hover {
   text-decoration: none;
-  color: #333399; }
+  color: #000; }
 
 img {
   max-width: 100%; }
@@ -69,16 +66,17 @@ section {
   top: 0;
   right: 0;
   left: 0;
+  background-color: #000;
   z-index: 11;
   transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
 
 .navbar-brand {
   font-size: 80px;
-  color: #000; 
+  color: #fff; 
   font-weight: bold;}
 
 .navbar-nav .nav-link {
-  color: #000;
+  color: #fff;
   transition: .3s ease; }
 
 .navbar-nav:hover li a {
@@ -743,11 +741,11 @@ section {
     padding-top: 15px !important;
     padding-bottom: 15px !important; }
   .navbar-transparent .navbar-collapse {
-    background: #d46665;
+    background: #000;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #d46665, #d46665);
+    background: -webkit-linear-gradient(to right, #000, #000);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #d46665, #d46665);
+    background: linear-gradient(to right, #000, #000);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px; } }
 
