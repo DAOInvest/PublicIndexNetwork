@@ -125,7 +125,7 @@ section {
     line-height: 0.7;
     font-weight: bold;
     display: inline-block;
-    border: 15px solid #fff;
+    /*border: 15px solid #fff;*/
     padding: 40px;
     padding-top: 70px;
     font-size: 10rem;
